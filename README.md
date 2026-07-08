@@ -1,6 +1,6 @@
 # Snake Terrain Classifier
 
-This project is a software parallel to a robotic snake terrain-recognition system.  
+This project is a software parallel to a robotic snake terrain recognition system.  
 It generates synthetic joint-angle and IMU-like sensor data for a virtual snake robot, then tests multiple machine learning and deep learning methods for terrain classification.
 
 ## Project Goal
