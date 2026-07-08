@@ -1,0 +1,16 @@
+Model Comparison Summary
+========================
+
+CNN-GRU: 57.00%
+CNN v1: 65.00%
+CNN v2: 67.00%
+Raw Random Forest: 69.00%
+Feature Gradient Boosting: 80.78%
+Feature Random Forest: 81.18%
+Feature Extra Trees: 82.22%
+
+Best model:
+Feature Extra Trees: 82.22%
+
+Interpretation:
+Feature-engineered tree-based models outperformed raw deep learning models on the harder synthetic snake terrain dataset. This suggests that summary signal features such as standard deviation, range, RMS energy, signal change, and FFT energy are highly useful for terrain classification from joint and IMU-like data.

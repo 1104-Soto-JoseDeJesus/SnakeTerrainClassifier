@@ -1,0 +1,27 @@
+expanded_random_forest Results
+==================================================
+
+Final Test Accuracy: 0.8308
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       bumpy       0.66      0.78      0.71       117
+      carpet       0.85      0.72      0.78       117
+      gravel       0.78      0.78      0.78       117
+     incline       1.00      1.00      1.00       117
+      smooth       0.90      0.88      0.89       117
+
+    accuracy                           0.83       585
+   macro avg       0.84      0.83      0.83       585
+weighted avg       0.84      0.83      0.83       585
+
+Confusion Matrix:
+[[ 91   0  26   0   0]
+ [ 22  84   0   0  11]
+ [ 25   1  91   0   0]
+ [  0   0   0 117   0]
+ [  0  14   0   0 103]]
+
+Class names:
+['bumpy', 'carpet', 'gravel', 'incline', 'smooth']

@@ -1,0 +1,13 @@
+Confidence-Gated Specialist Ensemble Summary
+============================================
+
+Validation-selected rough threshold: 0.6
+Validation-selected regular threshold: 0.6
+Validation accuracy during threshold tuning: 0.8612
+
+General tuned Extra Trees: 0.8510
+Always specialist corrected: 0.8523
+Confidence-gated specialist corrected: 0.8510
+
+Previous best:
+Specialist-corrected Extra Trees: 0.8575

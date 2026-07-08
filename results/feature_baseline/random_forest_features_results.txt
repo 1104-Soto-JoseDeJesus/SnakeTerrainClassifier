@@ -1,0 +1,27 @@
+random_forest_features Feature-Based Results
+========================================
+
+Accuracy: 0.8118
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       bumpy       0.68      0.74      0.71       153
+      carpet       0.76      0.82      0.79       153
+      gravel       0.75      0.81      0.78       153
+     incline       1.00      0.99      1.00       153
+      smooth       0.91      0.70      0.79       153
+
+    accuracy                           0.81       765
+   macro avg       0.82      0.81      0.81       765
+weighted avg       0.82      0.81      0.81       765
+
+Confusion Matrix:
+[[113   1  39   0   0]
+ [ 17 125   2   0   9]
+ [ 25   4 124   0   0]
+ [  0   0   0 152   1]
+ [ 11  35   0   0 107]]
+
+Class names:
+['bumpy', 'carpet', 'gravel', 'incline', 'smooth']

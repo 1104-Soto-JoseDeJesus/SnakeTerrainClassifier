@@ -1,0 +1,8 @@
+Diverse Ensemble Summary
+========================
+
+Diverse general ensemble: 0.8601
+Diverse specialist-corrected ensemble: 0.8497
+
+Previous best:
+Specialist-corrected Extra Trees: 0.8575

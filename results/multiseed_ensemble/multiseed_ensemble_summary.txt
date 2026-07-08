@@ -1,0 +1,10 @@
+Multiseed Ensemble Summary
+==========================
+
+Seeds: [11, 22, 33, 44, 55, 66, 77]
+
+Multiseed general Extra Trees: 0.8536
+Multiseed specialist-corrected Extra Trees: 0.8536
+
+Previous best:
+Specialist-corrected Extra Trees: 0.8575

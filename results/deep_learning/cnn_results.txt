@@ -1,0 +1,27 @@
+1D CNN Deep Learning Results
+============================
+
+Final Test Accuracy: 0.6536
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       bumpy       0.54      0.48      0.51       153
+      carpet       0.51      0.39      0.44       153
+      gravel       0.60      0.82      0.69       153
+     incline       1.00      1.00      1.00       153
+      smooth       0.59      0.58      0.59       153
+
+    accuracy                           0.65       765
+   macro avg       0.65      0.65      0.65       765
+weighted avg       0.65      0.65      0.65       765
+
+Confusion Matrix:
+[[ 73  18  48   0  14]
+ [ 30  59  22   0  42]
+ [ 19   2 126   0   6]
+ [  0   0   0 153   0]
+ [ 14  36  14   0  89]]
+
+Class names:
+['bumpy', 'carpet', 'gravel', 'incline', 'smooth']

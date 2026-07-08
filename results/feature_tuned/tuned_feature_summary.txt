@@ -1,0 +1,11 @@
+Tuned Feature Model Summary
+===========================
+
+Best validation accuracy during tuning: 0.8862
+Best Extra Trees params: {'n_estimators': 800, 'max_features': None, 'min_samples_leaf': 2, 'max_depth': None}
+
+Tuned Extra Trees final test accuracy: 0.8342
+Expanded Random Forest final test accuracy: 0.8308
+
+Previous best result:
+Feature Extra Trees: 0.8222

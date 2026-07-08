@@ -1,0 +1,11 @@
+Trial-Level Majority Vote Summary
+=================================
+
+Window-level hierarchical accuracy: 0.8581
+Trial-level majority vote accuracy: 0.8667
+
+Testing windows: 585
+Testing trials: 45
+
+Previous best window-level result:
+4-second hierarchical specialist Extra Trees: 0.8581

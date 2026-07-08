@@ -1,0 +1,25 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter / notebook checkpoints
+.ipynb_checkpoints/
+
+# Large/generated NumPy data
+*.npy
+
+# Optional generated raw/processed data
+data/processed/
+data/processed_2sec_best/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/

@@ -1,0 +1,33 @@
+Baseline Random Forest Results
+==============================
+
+Accuracy: 0.6928
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       bumpy       0.47      0.38      0.42       153
+      carpet       0.59      0.64      0.62       153
+      gravel       0.63      0.80      0.70       153
+     incline       0.99      1.00      1.00       153
+      smooth       0.78      0.65      0.71       153
+
+    accuracy                           0.69       765
+   macro avg       0.69      0.69      0.69       765
+weighted avg       0.69      0.69      0.69       765
+
+Confusion Matrix:
+[[ 58  22  68   1   4]
+ [ 29  98   3   0  23]
+ [ 21   9 122   0   1]
+ [  0   0   0 153   0]
+ [ 16  36   2   0  99]]
+
+Class names:
+['bumpy', 'carpet', 'gravel', 'incline', 'smooth']
+
+Training trials:
+['bumpy_trial_9', 'bumpy_trial_23', 'bumpy_trial_15', 'bumpy_trial_5', 'bumpy_trial_4', 'bumpy_trial_29', 'bumpy_trial_13', 'bumpy_trial_28', 'bumpy_trial_6', 'bumpy_trial_18', 'bumpy_trial_26', 'bumpy_trial_27', 'bumpy_trial_17', 'bumpy_trial_14', 'bumpy_trial_25', 'bumpy_trial_11', 'bumpy_trial_0', 'bumpy_trial_22', 'bumpy_trial_24', 'bumpy_trial_3', 'bumpy_trial_2', 'carpet_trial_19', 'carpet_trial_13', 'carpet_trial_16', 'carpet_trial_1', 'carpet_trial_18', 'carpet_trial_26', 'carpet_trial_4', 'carpet_trial_14', 'carpet_trial_24', 'carpet_trial_29', 'carpet_trial_10', 'carpet_trial_0', 'carpet_trial_27', 'carpet_trial_6', 'carpet_trial_15', 'carpet_trial_12', 'carpet_trial_25', 'carpet_trial_8', 'carpet_trial_3', 'carpet_trial_20', 'carpet_trial_17', 'gravel_trial_20', 'gravel_trial_10', 'gravel_trial_12', 'gravel_trial_21', 'gravel_trial_6', 'gravel_trial_19', 'gravel_trial_11', 'gravel_trial_5', 'gravel_trial_3', 'gravel_trial_22', 'gravel_trial_8', 'gravel_trial_4', 'gravel_trial_25', 'gravel_trial_0', 'gravel_trial_14', 'gravel_trial_9', 'gravel_trial_27', 'gravel_trial_26', 'gravel_trial_1', 'gravel_trial_7', 'gravel_trial_24', 'incline_trial_26', 'incline_trial_0', 'incline_trial_6', 'incline_trial_5', 'incline_trial_13', 'incline_trial_1', 'incline_trial_4', 'incline_trial_27', 'incline_trial_2', 'incline_trial_7', 'incline_trial_23', 'incline_trial_10', 'incline_trial_18', 'incline_trial_11', 'incline_trial_19', 'incline_trial_20', 'incline_trial_24', 'incline_trial_15', 'incline_trial_25', 'incline_trial_29', 'incline_trial_14', 'smooth_trial_19', 'smooth_trial_21', 'smooth_trial_4', 'smooth_trial_5', 'smooth_trial_22', 'smooth_trial_24', 'smooth_trial_12', 'smooth_trial_10', 'smooth_trial_14', 'smooth_trial_27', 'smooth_trial_29', 'smooth_trial_16', 'smooth_trial_6', 'smooth_trial_9', 'smooth_trial_0', 'smooth_trial_17', 'smooth_trial_18', 'smooth_trial_25', 'smooth_trial_15', 'smooth_trial_8', 'smooth_trial_1']
+
+Testing trials:
+['bumpy_trial_19', 'bumpy_trial_21', 'bumpy_trial_8', 'bumpy_trial_10', 'bumpy_trial_12', 'bumpy_trial_7', 'bumpy_trial_1', 'bumpy_trial_20', 'bumpy_trial_16', 'carpet_trial_7', 'carpet_trial_28', 'carpet_trial_5', 'carpet_trial_2', 'carpet_trial_23', 'carpet_trial_21', 'carpet_trial_9', 'carpet_trial_22', 'carpet_trial_11', 'gravel_trial_15', 'gravel_trial_17', 'gravel_trial_28', 'gravel_trial_2', 'gravel_trial_16', 'gravel_trial_29', 'gravel_trial_18', 'gravel_trial_23', 'gravel_trial_13', 'incline_trial_16', 'incline_trial_21', 'incline_trial_22', 'incline_trial_12', 'incline_trial_17', 'incline_trial_8', 'incline_trial_28', 'incline_trial_3', 'incline_trial_9', 'smooth_trial_26', 'smooth_trial_20', 'smooth_trial_2', 'smooth_trial_3', 'smooth_trial_11', 'smooth_trial_13', 'smooth_trial_28', 'smooth_trial_7', 'smooth_trial_23']

@@ -1,0 +1,24 @@
+full_trial_only Results
+==================================================
+
+Accuracy: 0.8444
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       bumpy       0.70      0.78      0.74         9
+      carpet       0.78      0.78      0.78         9
+      gravel       0.80      0.89      0.84         9
+     incline       1.00      1.00      1.00         9
+      smooth       1.00      0.78      0.88         9
+
+    accuracy                           0.84        45
+   macro avg       0.86      0.84      0.85        45
+weighted avg       0.86      0.84      0.85        45
+
+Confusion Matrix:
+[[7 0 2 0 0]
+ [2 7 0 0 0]
+ [1 0 8 0 0]
+ [0 0 0 9 0]
+ [0 2 0 0 7]]

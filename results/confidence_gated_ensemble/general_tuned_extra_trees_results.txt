@@ -1,0 +1,27 @@
+general_tuned_extra_trees Results
+==================================================
+
+Accuracy: 0.8510
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       bumpy       0.71      0.74      0.72       153
+      carpet       0.86      0.86      0.86       153
+      gravel       0.76      0.77      0.76       153
+     incline       0.99      1.00      0.99       153
+      smooth       0.96      0.89      0.93       153
+
+    accuracy                           0.85       765
+   macro avg       0.85      0.85      0.85       765
+weighted avg       0.85      0.85      0.85       765
+
+Confusion Matrix:
+[[113   1  37   2   0]
+ [ 16 131   1   0   5]
+ [ 31   4 118   0   0]
+ [  0   0   0 153   0]
+ [  0  17   0   0 136]]
+
+Class names:
+['bumpy', 'carpet', 'gravel', 'incline', 'smooth']

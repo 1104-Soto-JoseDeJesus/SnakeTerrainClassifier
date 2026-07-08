@@ -1,0 +1,13 @@
+Hybrid Trial Ensemble Summary
+=============================
+
+Best validation full-trial weight: 0.05
+Best validation window weight: 0.95
+Best validation accuracy: 0.8800
+
+Full-trial only accuracy: 0.8444
+Window trial probability vote accuracy: 0.8667
+Hybrid full + window accuracy: 0.8667
+
+Target for 90%+:
+41/45 correct = 0.9111

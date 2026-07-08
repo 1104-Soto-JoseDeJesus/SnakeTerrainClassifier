@@ -1,0 +1,12 @@
+Specialist Ensemble Summary
+===========================
+
+General tuned Extra Trees: 0.8342
+Specialist-corrected Extra Trees: 0.8291
+Hierarchical specialist Extra Trees: 0.8581
+
+Previous best:
+Tuned Extra Trees: 0.8510
+
+Purpose:
+This experiment tests whether specialist classifiers can improve the two major confusion pairs: bumpy vs gravel and carpet vs smooth.
