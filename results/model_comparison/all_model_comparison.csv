@@ -1,0 +1,27 @@
+model,setting,accuracy
+1D CNN,"Easy dataset, 2-sec windows",100.0
+Random Forest Baseline,"Easy dataset, 2-sec windows",88.2
+Hybrid Full-Trial + Window Ensemble,"Harder dataset, full-trial + windows",86.67
+Full-Trial Random Forest,"Harder dataset, full-trial",86.67
+Full-Trial Hierarchical Extra Trees,"Harder dataset, full-trial",86.67
+Trial-Level Majority Vote,"Harder dataset, 4-sec windows",86.67
+Full-Trial Extra Trees,"Harder dataset, full-trial",86.67
+Hierarchical Specialist Extra Trees,"Harder dataset, 4-sec windows",85.81
+Specialist-Corrected Extra Trees,"Harder dataset, 2-sec windows",85.75
+Hierarchical Specialist Extra Trees,"Harder dataset, 2-sec windows",85.62
+Multiseed General Extra Trees,"Harder dataset, 2-sec windows",85.36
+Multiseed Specialist-Corrected,"Harder dataset, 2-sec windows",85.36
+Always Specialist Corrected,"Harder dataset, 2-sec windows",85.23
+Confidence-Gated Specialist,"Harder dataset, 2-sec windows",85.1
+Tuned Extra Trees,"Harder dataset, 2-sec windows",85.1
+General Tuned Extra Trees,"Harder dataset, 4-sec windows",83.42
+Tuned Extra Trees,"Harder dataset, 4-sec windows",83.42
+Expanded Random Forest,"Harder dataset, 4-sec windows",83.08
+Specialist-Corrected Extra Trees,"Harder dataset, 4-sec windows",82.91
+Feature Extra Trees,"Harder dataset, 2-sec windows",82.22
+Feature Random Forest,"Harder dataset, 2-sec windows",81.18
+Feature Gradient Boosting,"Harder dataset, 2-sec windows",80.78
+Raw Random Forest,"Harder dataset, 2-sec windows",69.0
+1D CNN v2,"Harder dataset, 2-sec windows",67.0
+1D CNN v1,"Harder dataset, 2-sec windows",65.0
+CNN-GRU,"Harder dataset, 2-sec windows",57.0
